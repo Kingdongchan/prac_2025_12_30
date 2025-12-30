@@ -5,8 +5,8 @@ root.title("더하기")
 root.geometry("600x400")
 
 def plus():
-    first = entry1.get()
-    second = entry2.get()
+    first = int(entry1.get())
+    second = int(entry2.get())
 
     value = first + second 
 
