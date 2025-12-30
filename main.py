@@ -23,6 +23,13 @@ class label_maker:
     def maker (self):
         tk.Label(self.main, text=self.text).grid(row=self.row, column=self.column)
 
+#경고문 만들기
+def warning():
+    messagebox.showwarning("경고", "눌르지 말라고")
+
+def clear():
+    messagebox.showinfo("완료", "OKAY")
+
 root = tk.Tk()
 root.title("class 연습")
 root.geometry("600x400")
