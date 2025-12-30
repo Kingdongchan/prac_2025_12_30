@@ -20,4 +20,10 @@ root.geometry("600x400")
 button1 = button("bt1", root, "버튼 1", 0, 0)
 button1.maker()
 
+button2 = button("bt2", root, "버튼 2", 1, 0)
+button2.maker()
+
+button3 = button("bt3", root, "버튼 3", 0, 1)
+button3.maker()
+
 root.mainloop()
