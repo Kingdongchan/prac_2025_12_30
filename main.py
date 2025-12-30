@@ -13,5 +13,9 @@ class button:
         self.name = tk.button(self.main, text=f"{self.text}").grid(row=self.row, column=self.column)
 
 
+root = tk.Tk()
+root.title("class 연습")
+root.geometry("600x400")
 
-        
+
+root.mainloop()
