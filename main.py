@@ -10,12 +10,14 @@ class button:
         self.column = column
 
     def maker (self):
-        self.name = tk.button(self.main, text=f"{self.text}").grid(row=self.row, column=self.column)
+        tk.Button(self.main, text=self.text).grid(row=self.row, column=self.column)
 
 
 root = tk.Tk()
 root.title("class 연습")
 root.geometry("600x400")
 
+button1 = button("bt1", root, "버튼 1", 0, 0)
+button1.maker()
 
 root.mainloop()
